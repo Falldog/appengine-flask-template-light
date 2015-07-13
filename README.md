@@ -18,7 +18,7 @@ $ git clone https://github.com/Falldog/appengine-flask-template-light.git
 ```
 
 * install require library to `lib` folder
-jinja2 will installed with pip, jinja2 is support by GAE default, you can modify app.yaml to decide to use jinjal2 in GAE or `lib`
+* jinja2 will installed with pip, jinja2 is support by GAE default, you can modify app.yaml to decide to use jinjal2 in GAE or `lib`
 
 ```
 $ cd appengine-flask-template-light
