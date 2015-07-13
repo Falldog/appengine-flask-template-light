@@ -17,7 +17,8 @@ A light template for creating new Python Flask web framework on Google App Engin
 $ git clone https://github.com/Falldog/appengine-flask-template-light.git
 ```
 
-* install require library to `lib` folder, note that it will install packages into `lib` and jinja2 will installed too
+* install require library to `lib` folder
+jinja2 will installed with pip, jinja2 is support by GAE default, you can modify app.yaml to decide to use jinjal2 in GAE or `lib`
 
 ```
 $ cd appengine-flask-template-light
@@ -27,7 +28,7 @@ $ pip install -r requirements.txt -t lib
 * run appengine dev server on specific port
 
 ```
-$ dev_appserver.py --admin_port=8000 --port=8080 .
+$ dev_appserver.py --port=8080 .
 ```
 
 * browse application on [http://localhost:8080](http://localhost:8080)
